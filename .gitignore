@@ -1,0 +1,81 @@
+# Gradle / Kotlin
+.gradle/
+.kotlin/
+**/.gradle/
+**/.kotlin/
+**/build/
+
+# Local Android / IDE
+local.properties
+.idea/
+.vscode/
+*.iml
+
+# Signing
+keystore.properties
+secrets.properties
+keystore/
+*.jks
+*.keystore
+*.p12
+*.pem
+*.mobileprovision
+
+# .NET build outputs
+**/bin/
+**/obj/
+*.user
+*.suo
+.vs/
+
+# Build outputs
+*.apk
+*.aab
+*.ap_
+*.idsig
+*TExtension
+*.TExtension
+*.textension
+/*.zip
+/*.exe
+/*.msi
+/*.dmg
+/*.pkg
+/*.deb
+/*.rpm
+/*.AppImage
+/dist/
+/artifacts/
+/release/
+/releases/
+**/dist/
+**/out/
+**/.cxx/
+_tmp*/
+**/_tmp*/
+*.dex
+*.class
+*.hprof
+*.dmp
+/tmp/
+
+# Logs
+*.log
+hs_err_pid*
+
+# Local scratch / generated verification workspaces
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+captures/
+
+# Codex / local tooling
+.codex/
